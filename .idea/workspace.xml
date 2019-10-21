@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1SX3ctNuuH2e6nLcEGik530ez8D" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="263" width="424" height="510" key="FileChooserDialogImpl" timestamp="1571696223727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="263" width="424" height="510" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1571696223727" />
+    <state x="765" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1571696314918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1571696314918" />
+  </component>
+</project>
