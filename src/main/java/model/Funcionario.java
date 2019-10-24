@@ -1,12 +1,19 @@
 package model;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
 @Entity
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-public abstract class Funcionario {
+@NamedQueries({
+        @NamedQuery(name= "Funcionario.findAll", query = "from Funcionario"),
+        @NamedQuery(name= "Funcionario.findByNome", query = "from Funcionario f where f.nome = :nome")
+
+})
+public class Funcionario {
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.TABLE)
@@ -24,7 +31,7 @@ public abstract class Funcionario {
 
     @ManyToOne
     @JoinColumn(
-            name = "dep_ip",
+            name = "dep_id",
             nullable = false
     )
     private Departamento departamento;
@@ -33,7 +40,7 @@ public abstract class Funcionario {
             cascade = CascadeType.ALL,
             mappedBy = "funcionario"
     )
-    private List<Dependente> dependentes;
+    private List<Dependente> dependentes = new ArrayList<>();
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(

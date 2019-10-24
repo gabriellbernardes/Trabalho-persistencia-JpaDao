@@ -24,7 +24,7 @@ public class Projeto {
 
     @ManyToOne
     @JoinColumn(
-            name = "dep_ip",
+            name = "dep_id",
             nullable = false
     )
     private Departamento departamento;

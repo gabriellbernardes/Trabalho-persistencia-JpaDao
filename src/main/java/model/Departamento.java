@@ -1,6 +1,7 @@
 package model;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -18,13 +19,13 @@ public class Departamento {
             cascade = CascadeType.ALL,
             mappedBy = "departamento"
     )
-    private List<Projeto> projetos;
+    private List<Projeto> projetos = new ArrayList<>();
 
     @OneToMany(
             cascade = CascadeType.ALL,
             mappedBy = "departamento"
     )
-    private List<Funcionario> funcionarios;
+    private List<Funcionario> funcionarios = new ArrayList<>();
 
     public Departamento() {
     }
