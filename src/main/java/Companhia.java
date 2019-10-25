@@ -12,6 +12,7 @@ import model.Departamento;
 import model.Endereco;
 import model.Funcionario;
 import model.Pesquisador;
+import util.Menu;
 
 import javax.persistence.PersistenceException;
 import java.text.DateFormat;
@@ -26,27 +27,27 @@ public class Companhia {
 
     public static void addFuncionario() {
 //        PesquisadorDAO pDAO = new PesquisadorJPADAO();
-        DepartamentoDAO dDAO = new DepartamendoJPADAO();
-
-        Departamento dep = new Departamento();
+//        DepartamentoDAO dDAO = new DepartamendoJPADAO();
+//
+//        Departamento dep = new Departamento();
 
 
 //        System.out.println(dep);
 
 //        dDAO.close();
-        dep.setNome("3");
-        dep.setNumero(3);
+//        dep.setNome("3");
+//        dep.setNumero(3);
 
-        try {;
-            dDAO.beginTransaction();
-            dDAO.save(dep);
-            dDAO.commit();
-        } catch(IllegalStateException | PersistenceException e) {
-            dDAO.rollBack();
-            e.printStackTrace();
-        } finally {
-            dDAO.close();
-        }
+//        try {;
+//            dDAO.beginTransaction();
+//            dDAO.save(dep);
+//            dDAO.commit();
+//        } catch(IllegalStateException | PersistenceException e) {
+//            dDAO.rollBack();
+//            e.printStackTrace();
+//        } finally {
+//            dDAO.close();
+//        }
 
 //        Pesquisador pesq = new Pesquisador();
 //        pesq.setNome("xavier");
@@ -69,8 +70,6 @@ public class Companhia {
 //        endereco.setLogradouro("Seu ze da carroça");
 //        endereco.setNumero(898);
 //        pesq.setEndereco(endereco);
-//
-//
 //
 //        try {;
 //            pDAO.beginTransaction();
@@ -97,16 +96,11 @@ public class Companhia {
 //        }
 //    }
 
-    public static void main(String[] args) {
-//        JPAUtil.getEntityManager();
-//        JPAUtil.closeEntityManager();
 
-//        Calendar c = Calendar.getInstance();
-//        c.set(2008,00,03); // dia de hoje
-//
-//         DateFormat df = new SimpleDateFormat("dd-MM-yyyy");
-//        System.out.println(df.format(c.getTime()));
-            addFuncionario();
+    public static void main(String[] args) {
+
+            Menu menu = new Menu();
+            menu.chamaMenu();
     }
 
 }

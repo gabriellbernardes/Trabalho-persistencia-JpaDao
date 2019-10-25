@@ -1,54 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34f73464-c61a-46aa-ace2-9490d4a0dbed" name="Default Changelist" comment="vai que é tua xavier">
-      <change beforePath="$PROJECT_DIR$/.idea/Trabalho-persistencia-JpaDao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Trabalho-persistencia-JpaDao.iml" afterDir="false" />
+    <list default="true" id="34f73464-c61a-46aa-ace2-9490d4a0dbed" name="Default Changelist" comment="erro ao adicionar mais de um departamento">
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Companhia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Companhia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/FuncionarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/FuncionarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/EnderecoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/EnderecoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/LimpezaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/LimpezaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/PesquisadorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/PesquisadorDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SecretarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/SecretarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/EnderecoJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/EnderecoJPADAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/FuncionarioJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/FuncionarioJPADAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Departamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Projeto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Projeto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/LimpezaJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/LimpezaJPADAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/PesquisadorJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/PesquisadorJPADAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/SecretarioJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/SecretarioJPADAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Dependente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Dependente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Companhia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Companhia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/DepartamentoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/DepartamentoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/DependenteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/DependenteDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/EnderecoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/EnderecoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/FuncionarioDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/FuncionarioDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/GenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/GenericDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/LimpezaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/LimpezaDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/PesquisadorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/PesquisadorDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/PesquisasDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/PesquisasDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/ProjetoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ProjetoDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/SecretarioDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/SecretarioDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/DepartamendoJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/DepartamendoJPADAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/DependenteJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/DependenteJPADAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/EnderecoJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/EnderecoJPADAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/FuncionarioJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/FuncionarioJPADAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/GenericJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/GenericJPADAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/LimpezaJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/LimpezaJPADAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/PesquisadorJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/PesquisadorJPADAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/PesquisasJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/PesquisasJPADAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/ProjetoJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/ProjetoJPADAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/SecretarioJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/SecretarioJPADAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jpa/JPAUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jpa/JPAUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Departamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Departamento.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/Dependente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Dependente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Endereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Endereco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Funcionario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Limpeza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Limpeza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Pesquisador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Pesquisador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Pesquisas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Pesquisas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Projeto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Projeto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Secretario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Secretario.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,12 +90,20 @@
       <option name="project" value="LOCAL" />
       <updated>1571696374853</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="erro ao adicionar mais de um departamento">
+      <created>1571943845059</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571943845059</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vai que é tua xavier" />
-    <option name="LAST_COMMIT_MESSAGE" value="vai que é tua xavier" />
+    <MESSAGE value="erro ao adicionar mais de um departamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="erro ao adicionar mais de um departamento" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="180" width="800" height="675" key="#Notifications" timestamp="1571787340341">
@@ -117,10 +114,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="555" y="180" width="800" height="675" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1571750017998" />
-    <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1571852303313">
+    <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1571964747353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1571852303313" />
+    <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1571964747353" />
     <state x="810" y="411" width="290" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1571749582320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -129,30 +126,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="263" width="424" height="510" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1571696223727" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1571943332202">
+    <state width="1874" height="186" key="GridCell.Tab.0.bottom" timestamp="1571976807037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1571943332202" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1571943332200">
+    <state width="1874" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1571976807037" />
+    <state width="1874" height="186" key="GridCell.Tab.0.center" timestamp="1571976807036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1571943332200" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1571943332200">
+    <state width="1874" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1571976807036" />
+    <state width="1874" height="186" key="GridCell.Tab.0.left" timestamp="1571976807036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1571943332200" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1571943332201">
+    <state width="1874" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1571976807036" />
+    <state width="1874" height="186" key="GridCell.Tab.0.right" timestamp="1571976807037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1571943332201" />
+    <state width="1874" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1571976807037" />
     <state x="464" y="154" width="1024" height="843" key="SettingsEditor" timestamp="1571749740998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="464" y="154" width="1024" height="843" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1571749740998" />
-    <state x="555" y="255" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1571696389424">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1571975099377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="555" y="255" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1571696389424" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1571975099377" />
+    <state x="555" y="255" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1571943857114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="555" y="255" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1571943857114" />
     <state x="765" y="439" width="380" height="158" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1571787325768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -161,9 +162,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="705" y="149" width="500" height="738" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1571853094964" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1571934755801">
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1571964775297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1571934755801" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1571964775297" />
   </component>
 </project>

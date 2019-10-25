@@ -10,7 +10,7 @@ public class Dependente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "")
+    @Column(name = "depen_id")
     private Integer id;
 
     private String nome;
