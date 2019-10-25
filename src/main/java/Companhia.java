@@ -16,6 +16,7 @@ import util.Menu;
 
 import javax.persistence.PersistenceException;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -27,27 +28,7 @@ public class Companhia {
 
     public static void addFuncionario() {
 //        PesquisadorDAO pDAO = new PesquisadorJPADAO();
-//        DepartamentoDAO dDAO = new DepartamendoJPADAO();
-//
-//        Departamento dep = new Departamento();
 
-
-//        System.out.println(dep);
-
-//        dDAO.close();
-//        dep.setNome("3");
-//        dep.setNumero(3);
-
-//        try {;
-//            dDAO.beginTransaction();
-//            dDAO.save(dep);
-//            dDAO.commit();
-//        } catch(IllegalStateException | PersistenceException e) {
-//            dDAO.rollBack();
-//            e.printStackTrace();
-//        } finally {
-//            dDAO.close();
-//        }
 
 //        Pesquisador pesq = new Pesquisador();
 //        pesq.setNome("xavier");
@@ -70,6 +51,8 @@ public class Companhia {
 //        endereco.setLogradouro("Seu ze da carroça");
 //        endereco.setNumero(898);
 //        pesq.setEndereco(endereco);
+//
+//
 //
 //        try {;
 //            pDAO.beginTransaction();
@@ -96,11 +79,12 @@ public class Companhia {
 //        }
 //    }
 
+    public static void main(String[] args) throws ParseException {
+//        JPAUtil.getEntityManager();
+//        JPAUtil.closeEntityManager();
+        Menu  menu = new Menu();
+        menu.chamaMenu();
 
-    public static void main(String[] args) {
-
-            Menu menu = new Menu();
-            menu.chamaMenu();
     }
 
 }

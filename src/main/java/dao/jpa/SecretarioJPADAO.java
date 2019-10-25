@@ -2,6 +2,7 @@ package dao.jpa;
 
 import dao.SecretarioDAO;
 import jpa.JPAUtil;
+import model.Limpeza;
 import model.Pesquisador;
 import model.Secretario;
 
@@ -27,4 +28,18 @@ public class SecretarioJPADAO extends FuncionarioJPADAO<Secretario> implements S
         return  query.getResultList();
     }
 
+    @Override
+    public Secretario findById(Integer id) {
+
+        Secretario temp = null;
+        EntityManager em = JPAUtil.getEntityManager();
+        try {
+            temp = (Secretario) em.createQuery("SELECT l.func_id, l.nome, l.sexo, l.aniversario, l.salario, l.cargo, l.jornada"+
+                    " FROM  Secretario l"+
+                    "  WHERE supervisor = :id ").setParameter("id", id).getSingleResult();
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
+        return temp;
+    }
 }

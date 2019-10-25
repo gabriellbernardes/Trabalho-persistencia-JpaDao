@@ -3,6 +3,7 @@ package model;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 @Entity
@@ -16,7 +17,7 @@ public class Pesquisador extends Funcionario {
     public Pesquisador() {
     }
 
-    public Pesquisador(String nome, String sexo, Calendar aniversario, Double salario,
+    public Pesquisador(String nome, String sexo, Date aniversario, Double salario,
                        Departamento departamento, List<Dependente> dependentes, Endereco endereco, String atuacao) {
         super(nome, sexo, aniversario, salario, departamento, dependentes, endereco);
         this.atuacao = atuacao;

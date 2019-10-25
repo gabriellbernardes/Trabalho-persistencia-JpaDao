@@ -2,6 +2,7 @@ package model;
 
 import javax.persistence.Entity;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 @Entity
@@ -12,8 +13,9 @@ public class Secretario extends Funcionario {
     public Secretario() {
     }
 
-    public Secretario(String nome, String sexo, Calendar aniversario, Double salario,
+    public Secretario(String nome, String sexo, Date aniversario, Double salario,
                       Departamento departamento, List<Dependente> dependentes, Endereco endereco, String escolaridade) {
+
         super(nome, sexo, aniversario, salario, departamento, dependentes, endereco);
         this.escolaridade = escolaridade;
     }

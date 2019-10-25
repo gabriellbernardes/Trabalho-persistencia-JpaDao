@@ -1,6 +1,7 @@
 package dao;
 
 import model.Funcionario;
+import model.Limpeza;
 
 import java.util.List;
 

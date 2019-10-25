@@ -3,6 +3,7 @@ package model;
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 @Entity
@@ -25,7 +26,7 @@ public class Funcionario {
     private String sexo;
 
     @Temporal(TemporalType.DATE)
-    private Calendar aniversario;
+    private Date aniversario;
 
     private Double salario;
 
@@ -52,7 +53,7 @@ public class Funcionario {
     public Funcionario() {
     }
 
-    public Funcionario(String nome, String sexo, Calendar aniversario, Double salario,
+    public Funcionario(String nome, String sexo, Date aniversario, Double salario,
                        Departamento departamento, List<Dependente> dependentes, Endereco endereco) {
         this.nome = nome;
         this.sexo = sexo;
@@ -87,11 +88,11 @@ public class Funcionario {
         this.sexo = sexo;
     }
 
-    public Calendar getAniversario() {
+    public Date getAniversario() {
         return aniversario;
     }
 
-    public void setAniversario(Calendar aniversario) {
+    public void setAniversario(Date aniversario) {
         this.aniversario = aniversario;
     }
 

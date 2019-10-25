@@ -2,6 +2,7 @@ package model;
 
 import javax.persistence.*;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.Set;
 
@@ -24,7 +25,7 @@ public class Limpeza extends Funcionario {
     public Limpeza() {
     }
 
-    public Limpeza(String nome, String sexo, Calendar aniversario, Double salario,
+    public Limpeza(String nome, String sexo, Date aniversario, Double salario,
                    Departamento departamento, List<Dependente> dependentes, Endereco endereco,
                    String cargo, Integer jornada, Funcionario supervisor, Set<Limpeza> subordinados) {
         super(nome, sexo, aniversario, salario, departamento, dependentes, endereco);
