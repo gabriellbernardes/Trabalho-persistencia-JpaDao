@@ -6,6 +6,7 @@ import javax.persistence.*;
 public class Endereco {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "end_id")
     private Integer id;
 
     private String logradouro;
@@ -18,7 +19,7 @@ public class Endereco {
 
     private String cidade;
 
-   @OneToOne(mappedBy = "endereco")
+    @OneToOne(mappedBy = "endereco")
     private Funcionario funcionario;
 
     public Endereco() {

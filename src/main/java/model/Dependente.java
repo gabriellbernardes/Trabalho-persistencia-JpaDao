@@ -2,15 +2,18 @@ package model;
 
 import javax.persistence.*;
 import java.util.Calendar;
-import java.util.List;
 
 
 @Entity
+@NamedQueries({
+        @NamedQuery(name="Dependente.findByNome",
+                query="from Dependente d where d.nome = ?1"),
+})
 public class Dependente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "depen_id")
+    @Column(name = "fam_id")
     private Integer id;
 
     private String nome;
@@ -24,8 +27,8 @@ public class Dependente {
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(
-            name="func_id",
-            nullable=false
+            name = "func_id",
+            nullable = false
     )
     private Funcionario funcionario;
 

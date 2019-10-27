@@ -14,18 +14,18 @@ public class Limpeza extends Funcionario {
     private Integer jornada;
 
     @ManyToOne(
-            cascade= CascadeType.ALL
+            cascade = CascadeType.ALL
     )
-    @JoinColumn(name="supervisor_id")
+    @JoinColumn(name = "supervisor_id")
     private Funcionario supervisor;
 
-    @OneToMany(mappedBy="supervisor")
+    @OneToMany(mappedBy = "supervisor")
     private Set<Limpeza> subordinados;
 
     public Limpeza() {
     }
 
-    public Limpeza(String nome, String sexo, Date aniversario, Double salario,
+    public Limpeza(String nome, String sexo, Calendar aniversario, Double salario,
                    Departamento departamento, List<Dependente> dependentes, Endereco endereco,
                    String cargo, Integer jornada, Funcionario supervisor, Set<Limpeza> subordinados) {
         super(nome, sexo, aniversario, salario, departamento, dependentes, endereco);

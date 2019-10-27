@@ -17,7 +17,7 @@ public class Pesquisador extends Funcionario {
     public Pesquisador() {
     }
 
-    public Pesquisador(String nome, String sexo, Date aniversario, Double salario,
+    public Pesquisador(String nome, String sexo, Calendar aniversario, Double salario,
                        Departamento departamento, List<Dependente> dependentes, Endereco endereco, String atuacao) {
         super(nome, sexo, aniversario, salario, departamento, dependentes, endereco);
         this.atuacao = atuacao;

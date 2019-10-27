@@ -99,7 +99,7 @@ public class Projeto {
                 ", numero=" + numero +
                 ", dataInicio=" + dataInicio +
                 ", dataFim=" + dataFim +
-                ", departamento=" + departamento.getId() +
+                ", departamento=" + departamento +
                 '}';
     }
 }

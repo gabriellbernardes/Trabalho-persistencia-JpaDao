@@ -7,6 +7,7 @@ public class Pesquisas {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "pesq_id")
     private Integer id;
 
     @ManyToOne

@@ -3,17 +3,15 @@ package model;
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 @Entity
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @NamedQueries({
-        @NamedQuery(name= "Funcionario.findAll", query = "from Funcionario"),
-        @NamedQuery(name= "Funcionario.findByNome", query = "from Funcionario f where f.nome = :nome")
-
+        @NamedQuery(name="Funcionario.findByNome",
+                query="from Funcionario f where f.nome = ?1"),
 })
-public class Funcionario {
+public abstract class Funcionario {
 
 
     @Id
@@ -26,7 +24,7 @@ public class Funcionario {
     private String sexo;
 
     @Temporal(TemporalType.DATE)
-    private Date aniversario;
+    private Calendar aniversario;
 
     private Double salario;
 
@@ -53,7 +51,7 @@ public class Funcionario {
     public Funcionario() {
     }
 
-    public Funcionario(String nome, String sexo, Date aniversario, Double salario,
+    public Funcionario(String nome, String sexo, Calendar aniversario, Double salario,
                        Departamento departamento, List<Dependente> dependentes, Endereco endereco) {
         this.nome = nome;
         this.sexo = sexo;
@@ -88,11 +86,11 @@ public class Funcionario {
         this.sexo = sexo;
     }
 
-    public Date getAniversario() {
+    public Calendar getAniversario() {
         return aniversario;
     }
 
-    public void setAniversario(Date aniversario) {
+    public void setAniversario(Calendar aniversario) {
         this.aniversario = aniversario;
     }
 
@@ -134,7 +132,7 @@ public class Funcionario {
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", sexo='" + sexo + '\'' +
-                ", aniversario=" + aniversario +
+                ", aniversario=" + aniversario.getTime() +
                 ", salario=" + salario +
                 ", departamento=" + departamento +
                 ", dependentes=" + dependentes +

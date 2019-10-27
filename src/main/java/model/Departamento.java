@@ -5,6 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@NamedQueries({
+        @NamedQuery(name="Departamento.findByNome",
+                query="from Departamento d where d.nome = ?1"),
+        @NamedQuery(name="Departamento.findByNumero",
+                query="from Departamento d where d.numero = ?1")
+})
 public class Departamento {
 
     @Id
@@ -69,7 +75,9 @@ public class Departamento {
         this.projetos = projetos;
     }
 
-    public List<Funcionario> getFuncionarios() { return funcionarios; }
+    public List<Funcionario> getFuncionarios() {
+        return funcionarios;
+    }
 
     public void setFuncionarios(List<Funcionario> funcionarios) {
         this.funcionarios = funcionarios;
@@ -81,8 +89,6 @@ public class Departamento {
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", numero=" + numero +
-                ", projetos=" + projetos +
-                ", funcionarios=" + funcionarios +
                 '}';
     }
 }
