@@ -1,12 +1,18 @@
 package model;
 
 import javax.persistence.Entity;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
 @Entity
+@NamedQueries({
+        @NamedQuery(name="Pesquisador.findByAtuacao",
+                query="from Pesquisador f where f.atuacao = ?1"),
+})
 public class Pesquisador extends Funcionario {
 
     private String atuacao;

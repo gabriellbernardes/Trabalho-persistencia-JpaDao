@@ -2,6 +2,7 @@ import dao.DepartamentoDAO;
 import dao.PesquisadorDAO;
 import dao.jpa.DepartamendoJPADAO;
 import dao.jpa.PesquisadorJPADAO;
+import jpa.JPAUtil;
 import model.Departamento;
 import model.Endereco;
 import model.Funcionario;
@@ -19,7 +20,7 @@ public class Companhia {
     public static void addFuncionario() {
 
         DepartamentoDAO dDAO = new DepartamendoJPADAO();
-//
+
 //        Departamento dep = new Departamento();
 //        dep.setNome("departamento1");
 //        dep.setNumero(10);
@@ -89,9 +90,9 @@ public class Companhia {
 //        JPAUtil.getEntityManager();
 //        JPAUtil.closeEntityManager();
 
-//        addFuncionario();
+         addFuncionario();
 
-        buscar("xavier");
+        //buscar("xavier");
 
 //        Menu menu = new Menu();
 //        menu.chamaMenu();
