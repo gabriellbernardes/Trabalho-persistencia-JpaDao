@@ -4,19 +4,14 @@
     <list default="true" id="34f73464-c61a-46aa-ace2-9490d4a0dbed" name="Default Changelist" comment="Fiz o menu gambiarra e tentei fazer algumas consultas no JPADao, mas não consegui testar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Companhia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Companhia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/LimpezaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/LimpezaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/PesquisadorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/PesquisadorDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProjetoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProjetoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/LimpezaJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/LimpezaJPADAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/PesquisadorJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/PesquisadorJPADAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/PesquisasJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/PesquisasJPADAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/ProjetoJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/ProjetoJPADAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Pesquisador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Pesquisador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Companhia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Companhia.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/trabalho2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jpa/JPAUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jpa/JPAUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/LimpezaJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/LimpezaJPADAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/PesquisadorJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/PesquisadorJPADAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/PesquisasJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/PesquisasJPADAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/ProjetoJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/ProjetoJPADAO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,38 +140,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="263" width="424" height="510" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1571696223727" />
-    <state width="1874" height="186" key="GridCell.Tab.0.bottom" timestamp="1572407185681">
+    <state width="1874" height="186" key="GridCell.Tab.0.bottom" timestamp="1572438719448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1572407185681" />
-    <state width="1874" height="186" key="GridCell.Tab.0.center" timestamp="1572407185679">
+    <state width="1874" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1572438719448" />
+    <state width="1874" height="186" key="GridCell.Tab.0.center" timestamp="1572438719447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1572407185679" />
-    <state width="1874" height="186" key="GridCell.Tab.0.left" timestamp="1572407185679">
+    <state width="1874" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1572438719447" />
+    <state width="1874" height="186" key="GridCell.Tab.0.left" timestamp="1572438719447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1572407185679" />
-    <state width="1874" height="186" key="GridCell.Tab.0.right" timestamp="1572407185680">
+    <state width="1874" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1572438719447" />
+    <state width="1874" height="186" key="GridCell.Tab.0.right" timestamp="1572438719447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1572407185680" />
-    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1572008986921">
+    <state width="1874" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1572438719447" />
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1572435901047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1572008986921" />
-    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1572008986921">
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1572435901047" />
+    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1572435901047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1572008986921" />
-    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1572008986921">
+    <state width="1874" height="339" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1572435901047" />
+    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1572435901047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1572008986921" />
-    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1572008986921">
+    <state width="1874" height="339" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1572435901047" />
+    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1572435901047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1572008986921" />
+    <state width="1874" height="339" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1572435901047" />
     <state x="464" y="154" width="1024" height="843" key="SettingsEditor" timestamp="1571749740998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -185,10 +180,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1571975099377" />
-    <state x="555" y="255" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1572008903294">
+    <state x="555" y="255" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1572407243940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="555" y="255" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572008903294" />
+    <state x="555" y="255" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572407243940" />
     <state x="765" y="439" width="390" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1572402250597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
