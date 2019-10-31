@@ -1,8 +1,13 @@
 package dao.jpa;
 
 import dao.SecretarioDAO;
+import jpa.JPAUtil;
 import model.Funcionario;
 import model.Secretario;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+import java.util.List;
 
 public class SecretarioJPADAO extends FuncionarioJPADAO<Secretario> implements SecretarioDAO {
 
@@ -10,8 +15,5 @@ public class SecretarioJPADAO extends FuncionarioJPADAO<Secretario> implements S
         super(Secretario.class);
     }
 
-//    @Override
-//    public Funcionario findByNome(String nome) {
-//        return null;
-//    }
+
 }

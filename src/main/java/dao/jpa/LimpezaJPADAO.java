@@ -15,7 +15,7 @@ public class LimpezaJPADAO extends FuncionarioJPADAO<Limpeza> implements Limpeza
     }
 
     @Override
-    public List<Pesquisador> findByAtuacao(Integer num) {
+    public List<Pesquisador> findByJornada(Integer num) {
         EntityManager em = JPAUtil.getEntityManager();
         Query query = em.createQuery("SELECT p FROM Limpeza p"
                 + "  WHERE p.jornada = ?1");

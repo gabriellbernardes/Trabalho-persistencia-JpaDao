@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34f73464-c61a-46aa-ace2-9490d4a0dbed" name="Default Changelist" comment="Fiz o menu gambiarra e tentei fazer algumas consultas no JPADao, mas não consegui testar">
+    <list default="true" id="34f73464-c61a-46aa-ace2-9490d4a0dbed" name="Default Changelist" comment="vai que é tua xavier">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Companhia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Companhia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/FuncionarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/FuncionarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/LimpezaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/LimpezaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SecretarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/SecretarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/FuncionarioJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/FuncionarioJPADAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/LimpezaJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/LimpezaJPADAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jpa/SecretarioJPADAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jpa/SecretarioJPADAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Companhia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Companhia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/FuncionarioDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/FuncionarioDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/LimpezaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/LimpezaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/FuncionarioJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/FuncionarioJPADAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/LimpezaJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/LimpezaJPADAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/PesquisadorJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/PesquisadorJPADAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/PesquisasJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/PesquisasJPADAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/ProjetoJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/ProjetoJPADAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/jpa/SecretarioJPADAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jpa/SecretarioJPADAO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,14 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572008355825</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="vai que é tua xavier">
+      <created>1572438874022</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572438874022</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vai que é tua xavier" />
     <MESSAGE value="erro ao adicionar mais de um departamento" />
     <MESSAGE value="Fiz o menu gambiarra e tentei fazer algumas consultas no JPADao, mas não consegui testar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fiz o menu gambiarra e tentei fazer algumas consultas no JPADao, mas não consegui testar" />
+    <MESSAGE value="vai que é tua xavier" />
+    <option name="LAST_COMMIT_MESSAGE" value="vai que é tua xavier" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="180" width="800" height="675" key="#Notifications" timestamp="1571787340341">
@@ -124,10 +134,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="555" y="180" width="800" height="675" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1571750017998" />
-    <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1571964747353">
+    <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1572470684262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1571964747353" />
+    <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1572470684262" />
     <state x="810" y="411" width="290" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1571749582320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -140,38 +150,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="263" width="424" height="510" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1571696223727" />
-    <state width="1874" height="186" key="GridCell.Tab.0.bottom" timestamp="1572438719448">
+    <state width="1874" height="245" key="GridCell.Tab.0.bottom" timestamp="1572482767557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1572438719448" />
-    <state width="1874" height="186" key="GridCell.Tab.0.center" timestamp="1572438719447">
+    <state width="1874" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1572482767557" />
+    <state width="1874" height="245" key="GridCell.Tab.0.center" timestamp="1572482767557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1572438719447" />
-    <state width="1874" height="186" key="GridCell.Tab.0.left" timestamp="1572438719447">
+    <state width="1874" height="245" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1572482767557" />
+    <state width="1874" height="245" key="GridCell.Tab.0.left" timestamp="1572482767557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1572438719447" />
-    <state width="1874" height="186" key="GridCell.Tab.0.right" timestamp="1572438719447">
+    <state width="1874" height="245" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1572482767557" />
+    <state width="1874" height="245" key="GridCell.Tab.0.right" timestamp="1572482767557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1572438719447" />
-    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1572435901047">
+    <state width="1874" height="245" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1572482767557" />
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1572450071162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1572435901047" />
-    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1572435901047">
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1572450071162" />
+    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1572450071162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1572435901047" />
-    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1572435901047">
+    <state width="1874" height="339" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1572450071162" />
+    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1572450071161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1572435901047" />
-    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1572435901047">
+    <state width="1874" height="339" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1572450071161" />
+    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1572450071162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1572435901047" />
+    <state width="1874" height="339" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1572450071162" />
     <state x="464" y="154" width="1024" height="843" key="SettingsEditor" timestamp="1571749740998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -180,10 +190,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1571975099377" />
-    <state x="555" y="255" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1572407243940">
+    <state x="555" y="255" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1572438881472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="555" y="255" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572407243940" />
+    <state x="555" y="255" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1572438881472" />
     <state x="765" y="439" width="390" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1572402250597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
